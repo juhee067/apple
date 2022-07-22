@@ -1,0 +1,28 @@
+header {
+    background: #363636;
+    line-height: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    color: #fff;
+    font-size: 13px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header .inner i {
+    color: #fff;
+}
