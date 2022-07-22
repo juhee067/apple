@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid #f00;
+}
+
 header {
     background: #363636;
     line-height: 50px;
@@ -8,7 +12,12 @@ header {
     margin: 0 auto;
 }
 
-header .inner {
+.menu_box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header .top_menu {
     display: flex;
     justify-content: space-between;
 }
@@ -23,6 +32,10 @@ header nav ul {
     gap: 30px;
 }
 
-header .inner i {
+header .top_menu i {
     color: #fff;
+}
+
+header .top_menu .icon {
+    display: flex;
 }
