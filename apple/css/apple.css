@@ -33,9 +33,47 @@ header nav ul {
 }
 
 header .top_menu i {
+    font-size: 20px;
     color: #fff;
+    padding-left: 30px;
 }
 
-header .top_menu .icon {
+/* header .top_menu .icon i:nth-child(2) {
+    transform: translateY(-10px);
+} */
+header .menu_box {
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 22px 0;
+}
+
+.bottom_menu nav ul {
     display: flex;
+    justify-content: center;
+
+}
+
+.bottom_menu nav ul li {
+    text-align: center;
+}
+
+
+header .menu_box .bottom_menu span {
+    display: block;
+    color: #000;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+main .main_visual {
+    position: relative;
+}
+
+main .main_visual figure {
+    position: relative;
+    height: 900px;
+}
+
+main .main_slider .itm01 {
+    background: url(../img/slick01.jpg) no-repeat center center/cover;
 }
