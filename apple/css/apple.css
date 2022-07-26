@@ -1,97 +1,245 @@
 /* * {
   outline: 1px solid #f00;
 } */
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 header {
-  background: #363636;
-  line-height: 50px;
+    background: #363636;
+    line-height: 50px;
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .menu_box {
-  width: 1000px;
-  margin: 0 auto;
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
 }
 
 header .top_menu {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav {
-  color: #fff;
-  font-size: 13px;
+    color: #fff;
+    font-size: 13px;
 }
 
 header nav ul {
-  display: flex;
-  gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 header .top_menu i {
-  font-size: 20px;
-  color: #fff;
-  padding-left: 30px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 30px;
 }
 
 /* header .top_menu .icon i:nth-child(2) {
     transform: translateY(-10px);
 } */
 header .menu_box {
-  width: 100%;
-  background-color: #f9f9fa;
-  padding: 22px 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 22px 0;
 }
 
 .bottom_menu nav ul {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .bottom_menu nav ul li {
-  text-align: center;
+    text-align: center;
 }
 
 header .menu_box .bottom_menu span {
-  display: block;
-  color: #000;
-  font-size: 11px;
-  line-height: 13px;
+    display: block;
+    color: #000;
+    font-size: 11px;
+    line-height: 13px;
 }
 
 main .main_visual {
-  position: relative;
-  color: #000;
+    position: relative;
+    color: #000;
+
 }
 
 main .main_visual figure {
-  position: relative;
-  height: 900px;
+    position: relative;
+    height: 900px;
+}
+
+main .main_slider {
+    width: 100%;
+}
+
+.main_visual .main_slider .inner {
+    position: absolute;
+    inset: 30% auto auto 50%;
+    transform: translate(-50%, -50%);
 }
 
 main .main_slider .itm01 {
-  background: url(../img/slick01.jpg) no-repeat center center/cover;
+    background: url(../img/slick01.jpg) no-repeat center center/cover;
 }
+
 main .main_slider .itm01 h2 {
-  font-size: 61px;
-  font-weight: 700;
-  line-height: 1.3;
-  padding-top: 100px;
-  padding-bottom: 35px;
-  letter-spacing: 0.01em;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 35px;
+    letter-spacing: 0.01em;
 }
+
 main .main_slider .itm01 p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.8;
-  padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding-bottom: 40px;
 }
+
 main .main_slider .itm01 span {
-  border: 1px solid rgb(116, 116, 116);
-  padding: 8px 12px;
-  border-radius: 100px;
+    display: inline-block;
+    border: 1px solid rgb(116, 116, 116);
+    padding: 11px 15px 13px 15px;
+    border-radius: 100px;
+}
+
+main .main_slider .itm02 {
+    background: url(../img/slick02.jpg) no-repeat center center/cover;
+}
+
+.main_visual .main_slider .itm02 .inner {
+    position: absolute;
+    inset: 25% auto auto 50%;
+
+    text-align: center;
+}
+
+main .main_slider .itm02 h2 {
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 5px;
+    letter-spacing: 0.01em;
+}
+
+main .main_slider .itm02 p {
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding-bottom: 30px;
+}
+
+main .main_slider .itm02 span {
+    display: inline-block;
+    border: 1px solid rgb(116, 116, 116);
+    background-color: #fff;
+    padding: 11px 20px 13px 20px;
+    border-radius: 100px;
+}
+
+main .main_slider .itm03 {
+    background: url(../img/slick03.jpg) no-repeat center center/cover;
+}
+
+.main_visual .main_slider .itm03 .inner {
+    position: absolute;
+    inset: 35% auto auto 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+main .main_slider .itm03 h2 {
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 35px;
+    letter-spacing: 0.01em;
+}
+
+main .main_slider .itm03 p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding-bottom: 40px;
+}
+
+main .main_slider .itm03 span {
+    display: inline-block;
+    border: 1px solid rgb(116, 116, 116);
+    padding: 11px 15px 13px 15px;
+    border-radius: 100px;
+}
+
+main .main_slider .itm04 {
+    background: url(../img/slick04.jpg) no-repeat center center/cover;
+}
+
+.main_visual .main_slider .itm04 .inner {
+    position: absolute;
+    inset: 30% auto auto 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+main .main_slider .itm04 h2 {
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 35px;
+    letter-spacing: 0.01em;
+}
+
+main .main_slider .itm04 p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding-bottom: 40px;
+}
+
+.main_slider .slick-dots {
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+    transform: translateX(-50%);
+
+}
+
+.main_slider .slick-dots li {
+    display: block;
+    width: 3px;
+    height: 50px;
+    background: #eeeeee;
+}
+
+.main_slider .slick-dots li::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    background: #000;
+
+
+}
+
+.main_slider .slick-dots li.slick-active::after {
+
+    height: 50px;
+    transition: 2s;
+}
+
+.main_slider .slick-dots li button {
+    display: none;
+
 }
