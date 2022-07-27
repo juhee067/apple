@@ -6,11 +6,12 @@ $(function () {
     autoplaySpeed: 2000,
   });
 
-  $('.main_slider').on('afterChange', function (e, s, c) {
-    $('.main_visual .bar').addClass('on')
+  $(".main_slider").on("afterChange", function (e, s, c) {
+    $(".main_visual .bar").addClass("on");
   });
-  $('.main_slider').on('beforeChange', function () {
-    $('.main_visual .bar').removeClass('on')
+  $(".main_slider").on("beforeChange", function () {
+    $(".main_visual .bar").removeClass("on");
   });
+
 
 });

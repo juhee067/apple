@@ -1,6 +1,7 @@
-/* * {
-  outline: 1px solid #f00;
-} */
+* {
+    outline: 1px solid #f00;
+}
+
 .inner {
     width: 1200px;
     margin: 0 auto;
@@ -44,8 +45,8 @@ header .top_menu i {
 }
 
 /* header .top_menu .icon i:nth-child(2) {
-    transform: translateY(-10px);
-} */
+      transform: translateY(-10px);
+  } */
 header .menu_box {
     width: 100%;
     background-color: #f9f9fa;
@@ -71,7 +72,6 @@ header .menu_box .bottom_menu span {
 main .main_visual {
     position: relative;
     color: #000;
-
 }
 
 main .main_visual figure {
@@ -159,7 +159,6 @@ main .main_slider .itm03 {
     transform: translate(-50%, -50%);
 }
 
-
 main .main_slider .itm03 h2 {
     font-size: 61px;
     font-weight: 700;
@@ -192,7 +191,6 @@ main .main_slider .itm04 {
     transform: translate(-50%, -50%);
 }
 
-
 main .main_slider .itm04 h2 {
     font-size: 61px;
     font-weight: 700;
@@ -213,7 +211,6 @@ main .main_slider .itm04 p {
     bottom: 100px;
     left: 350px;
     transform: translateX(-50%);
-
 }
 
 .main_slider .slick-dots li {
@@ -229,17 +226,138 @@ main .main_slider .itm04 p {
     width: 100%;
     height: 0;
     background: #000;
-
-
 }
 
 .main_slider .slick-dots li.slick-active::after {
-
     height: 50px;
     transition: 2s;
 }
 
 .main_slider .slick-dots li button {
     display: none;
+}
+
+.resizable {
+    position: relative;
+    padding: 300px 0;
+}
+
+
+.resizable .content h2 {
+    padding-bottom: 10px;
+}
+
+.resizable .content p {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 30px;
+    line-height: 1.3;
+    letter-spacing: -0.025em;
+}
+
+.resizable .content span {
+    font-size: 19px;
+    font-weight: 300;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: -0.025em;
+}
+
+.resizable .left .content_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resizable .right {
+    text-align: right;
+}
+
+.resizable .right .content h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #a1a1a1;
+    padding-bottom: 10px;
+}
+
+.resizable .right .content p {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 30px;
+    line-height: 1.3;
+    letter-spacing: -0.025em;
+}
+
+.resizable .right .content span {
+    font-size: 19px;
+    font-weight: 300;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: -0.025em;
+}
+
+.resizable .right .content_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compare {
+    padding: 100px 0;
+    background-color: #50575f;
+}
+
+.compare .compare_base {
+    padding: 60px 150px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.compare .tap_menu span {
+    display: inline-block;
+
+    text-align: center;
+    padding: 6px 15px 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    color: rgb(79, 79, 79);
+    font-weight: 500;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+
+.compare .content h2 {
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.compare .content p {
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 35px;
+    line-height: 1.5em;
+}
+
+.compare .content a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 13px 10px 13px;
+    border-radius: 20px;
+    background: #0071e3;
+    color: #fff;
+}
+
+.compare .content figure {
+    display: flex;
+}
+
+.compare .content figure p {
+    font-size: 13px;
 
 }
