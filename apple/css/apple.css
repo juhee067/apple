@@ -330,6 +330,19 @@ main .main_slider .itm04 p {
     margin-bottom: 25px;
 }
 
+.compare .content .info p {
+    display: inline-block;
+}
+
+.compare .content .left {
+    padding-right: 80px;
+}
+
+.compare .content {
+    display: flex;
+
+}
+
 .compare .content h2 {
     font-size: 45px;
     font-weight: 500;
@@ -353,11 +366,15 @@ main .main_slider .itm04 p {
     color: #fff;
 }
 
-.compare .content figure {
+.compare .content {
     display: flex;
+
 }
 
-.compare .content figure p {
-    font-size: 13px;
+.compare .content .info {
+    vertical-align: middle
+}
 
+.compare .content p {
+    font-size: 13px;
 }
