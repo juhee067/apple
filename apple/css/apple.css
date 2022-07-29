@@ -437,3 +437,86 @@ main .main_slider .itm04 p {
     transform: translateY(-50%);
     right: 0;
 }
+
+/* footer */
+#footer {
+    font-family: "Noto KR", Noto serif;
+    padding: 50px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer_menu {
+    padding: 0 0 50px 0;
+}
+
+#footer .footer_menu>ul {
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+}
+
+#footer .footer_menu>ul>li {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#footer .footer_menu>ul>li ul {
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+#footer .footer_menu>ul>li ul li {
+    width: 250px;
+    margin: 20px 0 10px 0;
+}
+
+
+.footer_menu i::after {
+    content: "";
+}
+
+.footer_menu.active i::after {
+    content: "";
+
+}
+
+.follow {
+    height: 0px;
+    overflow: hidden;
+    transition: 0.4s;
+    font-weight: 500;
+}
+
+.follow>li {
+    font-weight: 700;
+}
+
+.footer_menu.active .follow {
+    height: 100px;
+}
+
+.footer_menu.active i {
+    transform: rotate(180deg);
+}
+
+#footer .footer_address {
+    text-align: center;
+}
+
+#footer .footer_address ul {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 0 30px 0;
+}
+
+#footer .footer_address ul>li {
+    padding: 0 0 5px 0;
+}
+
+#footer .footer_address p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+}
