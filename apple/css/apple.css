@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid #f00;
-}
+} */
 
 .inner {
     width: 1200px;
@@ -45,8 +45,8 @@ header .top_menu i {
 }
 
 /* header .top_menu .icon i:nth-child(2) {
-      transform: translateY(-10px);
-  } */
+        transform: translateY(-10px);
+    } */
 header .menu_box {
     width: 100%;
     background-color: #f9f9fa;
@@ -242,7 +242,6 @@ main .main_slider .itm04 p {
     padding: 300px 0;
 }
 
-
 .resizable .content h2 {
     padding-bottom: 10px;
 }
@@ -306,20 +305,21 @@ main .main_slider .itm04 p {
     transform: translate(-50%, -50%);
 }
 
+/* compare */
 .compare {
     padding: 100px 0;
     background-color: #50575f;
 }
 
 .compare .compare_base {
-    padding: 60px 150px;
+    padding: 60px 120px;
     background-color: #fff;
     border-radius: 100px;
 }
 
-.compare .tap_menu span {
+/* .compare .tap_menu span {
     display: inline-block;
-
+  
     text-align: center;
     padding: 6px 15px 12px 15px;
     border: 1px solid #ddd;
@@ -328,53 +328,112 @@ main .main_slider .itm04 p {
     font-weight: 500;
     margin-right: 5px;
     margin-bottom: 25px;
-}
+  } */
 
-.compare .content .info p {
+.compare .compare_base .info p {
     display: inline-block;
 }
 
-.compare .content .left {
+.compare .compare_base.left {
     padding-right: 80px;
 }
 
-.compare .content {
-    display: flex;
 
-}
-
-.compare .content h2 {
+.compare .compare_base h2 {
     font-size: 45px;
     font-weight: 500;
+    padding-top: 90px;
     padding-bottom: 30px;
 }
 
-.compare .content p {
-    font-size: 17px;
+.compare .compare_base .left>p {
+    font-size: 21px;
     font-weight: 300;
     padding-bottom: 35px;
     line-height: 1.5em;
 }
 
-.compare .content a {
+.compare .compare_base .left>a {
     display: inline-block;
     font-size: 13px;
     font-weight: 500;
     padding: 8px 13px 10px 13px;
+    margin-bottom: 50px;
     border-radius: 20px;
     background: #0071e3;
     color: #fff;
 }
 
-.compare .content {
+.compare .content01 {
+    position: relative;
+}
+
+.compare .content02 {
+    position: relative;
+}
+
+.compare .content03 {
+    position: relative;
+}
+
+.compare .content04 {
+    position: relative;
+}
+
+.compare .compare_base .info .inner {
     display: flex;
-
 }
 
-.compare .content .info {
-    vertical-align: middle
+.compare .compare_base .info .inner figure {
+    margin-right: 30px;
 }
 
-.compare .content p {
-    font-size: 13px;
+.compare .compare_base .info .inner p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.compare .compare_base .slick-list {
+    position: relative;
+}
+
+.compare .compare_base .slick-dots {
+    position: absolute;
+    top: 70px;
+}
+
+.compare .compare_base .slick-dots li {
+    display: inline-block;
+    text-align: center;
+    padding: 6px 15px 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    color: rgb(79, 79, 79);
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.compare .compare_base .slick-dots button {
+    border-radius: 50px;
+    outline: none;
+    background: #fff;
+    border: 1px solid #000;
+    width: 50px;
+    height: 22px;
+    margin: 0 2px;
+}
+
+.compare .slick-dots li.slick-active {
+    background: #7b7b7b;
+    color: #fff;
+    font-weight: 300;
+    border: none;
+}
+
+.compare .right {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    right: 0;
 }
